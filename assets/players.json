@@ -1,0 +1,494 @@
+{
+  "294504580228710401": {
+    "username": "kqzoo",
+    "coins": 22194,
+    "xp": 57,
+    "level": 3,
+    "badges": {
+      "undead": false,
+      "fire": false,
+      "ice": false,
+      "earth": false,
+      "light": false,
+      "shadow": false,
+      "storm": false,
+      "arcane": false
+    },
+    "bag": {
+      "Potion": 9,
+      "Shell Fragment": 5,
+      "Bubble Essence": 4,
+      "Foam Pearl": 1,
+      "Dewdrop": 3,
+      "Tide Crystal": 2,
+      "Seaweed Strand": 1,
+      "Vine Fiber": 2,
+      "Flower Petal": 1,
+      "Obsidian Chip": 1,
+      "Spectral Core": 1,
+      "Night Crystal": 1,
+      "Contract": 2,
+      "Spirit Gem": 1,
+      "Astral Core": 1,
+      "Mystic Fragment": 1,
+      "Abyss Fragment": 1
+    },
+    "pc": [
+      {
+        "id": 24,
+        "unique_id": "h2a4f3d924",
+        "name": "Ivy",
+        "class": "Assassin",
+        "element": "Nature",
+        "rarity": "rare",
+        "level": 18,
+        "shiny": false,
+        "ivs": {
+          "hp": 27,
+          "attack": 30,
+          "defense": 24,
+          "magic": 14,
+          "speed": 21
+        },
+        "evs": {
+          "hp": 0,
+          "attack": 0,
+          "defense": 0,
+          "magic": 0,
+          "speed": 0
+        },
+        "stats": {
+          "hp": 64,
+          "attack": 33,
+          "defense": 32,
+          "magic": 28,
+          "speed": 31
+        },
+        "current_hp": 64,
+        "xp": 2997,
+        "xp_to_next": 2621,
+        "moveset": [
+          {
+            "move": "Nature Strike",
+            "type": "Physical",
+            "power": 50,
+            "acc": 100
+          },
+          {
+            "move": "Nature Burst",
+            "type": "Magical",
+            "power": 80,
+            "acc": 95
+          },
+          {
+            "move": "Nature Fury",
+            "type": "Magical",
+            "power": 120,
+            "acc": 90
+          }
+        ],
+        "sprite": "assets/heroes/hero24.png",
+        "date_recruited": "2025-10-07T02:58:40.189309"
+      },
+      {
+        "id": 59,
+        "unique_id": "hf8c5828a4",
+        "name": "Rilon",
+        "element": "Arcane",
+        "class": "Sorcerer",
+        "level": 27,
+        "rarity": "rare",
+        "shiny": false,
+        "ivs": {
+          "hp": 28,
+          "attack": 16,
+          "defense": 2,
+          "magic": 12,
+          "speed": 3
+        },
+        "evs": {
+          "hp": 0,
+          "attack": 0,
+          "defense": 0,
+          "magic": 0,
+          "speed": 0
+        },
+        "stats": {
+          "hp": 87,
+          "attack": 43,
+          "defense": 35,
+          "magic": 39,
+          "speed": 40
+        },
+        "current_hp": 87,
+        "xp": 0,
+        "xp_to_next": 2700,
+        "moveset": [
+          {
+            "move": "Arcane Strike",
+            "type": "Physical",
+            "power": 50,
+            "acc": 100
+          },
+          {
+            "move": "Arcane Burst",
+            "type": "Magical",
+            "power": 80,
+            "acc": 95
+          },
+          {
+            "move": "Arcane Fury",
+            "type": "Magical",
+            "power": 120,
+            "acc": 90
+          }
+        ],
+        "sprite": "assets/heroes/hero59.png",
+        "date_recruited": "2025-10-07T02:58:46.029220"
+      },
+      {
+        "id": 67,
+        "unique_id": "hc290a6109",
+        "name": "Aia",
+        "element": "Water",
+        "class": "Paladin",
+        "level": 15,
+        "rarity": "uncommon",
+        "shiny": false,
+        "ivs": {
+          "hp": 7,
+          "attack": 2,
+          "defense": 0,
+          "magic": 25,
+          "speed": 24
+        },
+        "evs": {
+          "hp": 0,
+          "attack": 0,
+          "defense": 0,
+          "magic": 0,
+          "speed": 0
+        },
+        "stats": {
+          "hp": 45,
+          "attack": 20,
+          "defense": 19,
+          "magic": 22,
+          "speed": 24
+        },
+        "current_hp": 45,
+        "xp": 0,
+        "xp_to_next": 1500,
+        "moveset": [
+          {
+            "move": "Water Strike",
+            "type": "Physical",
+            "power": 50,
+            "acc": 100
+          },
+          {
+            "move": "Water Burst",
+            "type": "Magical",
+            "power": 80,
+            "acc": 95
+          },
+          {
+            "move": "Water Fury",
+            "type": "Magical",
+            "power": 120,
+            "acc": 90
+          }
+        ],
+        "sprite": "assets/heroes/hero67.png",
+        "date_recruited": "2025-10-07T03:29:41.939803"
+      },
+      {
+        "id": 24,
+        "unique_id": "h3cbb304fe",
+        "name": "Ivy",
+        "element": "Nature",
+        "class": "Assassin",
+        "level": 28,
+        "rarity": "rare",
+        "shiny": false,
+        "ivs": {
+          "hp": 16,
+          "attack": 15,
+          "defense": 1,
+          "magic": 14,
+          "speed": 3
+        },
+        "evs": {
+          "hp": 0,
+          "attack": 0,
+          "defense": 0,
+          "magic": 0,
+          "speed": 0
+        },
+        "stats": {
+          "hp": 92,
+          "attack": 44,
+          "defense": 41,
+          "magic": 40,
+          "speed": 41
+        },
+        "current_hp": 92,
+        "xp": 0,
+        "xp_to_next": 2800,
+        "moveset": [
+          {
+            "move": "Nature Strike",
+            "type": "Physical",
+            "power": 50,
+            "acc": 100
+          },
+          {
+            "move": "Nature Burst",
+            "type": "Magical",
+            "power": 80,
+            "acc": 95
+          },
+          {
+            "move": "Nature Fury",
+            "type": "Magical",
+            "power": 120,
+            "acc": 90
+          }
+        ],
+        "sprite": "assets/heroes/hero24.png",
+        "date_recruited": "2025-10-07T04:57:18.750442"
+      },
+      {
+        "id": 65,
+        "unique_id": "h649b19364",
+        "name": "Daese",
+        "element": "Earth",
+        "class": "Assassin",
+        "level": 8,
+        "rarity": "common",
+        "shiny": false,
+        "ivs": {
+          "hp": 8,
+          "attack": 19,
+          "defense": 20,
+          "magic": 3,
+          "speed": 6
+        },
+        "evs": {
+          "hp": 0,
+          "attack": 0,
+          "defense": 0,
+          "magic": 0,
+          "speed": 0
+        },
+        "stats": {
+          "hp": 28,
+          "attack": 13,
+          "defense": 12,
+          "magic": 12,
+          "speed": 11
+        },
+        "current_hp": 28,
+        "xp": 0,
+        "xp_to_next": 800,
+        "moveset": [
+          {
+            "move": "Earth Strike",
+            "type": "Physical",
+            "power": 50,
+            "acc": 100
+          },
+          {
+            "move": "Earth Burst",
+            "type": "Magical",
+            "power": 80,
+            "acc": 95
+          },
+          {
+            "move": "Earth Fury",
+            "type": "Magical",
+            "power": 120,
+            "acc": 90
+          }
+        ],
+        "sprite": "assets/heroes/hero65.png",
+        "date_recruited": "2025-10-07T04:58:36.561975"
+      },
+      {
+        "id": 70,
+        "unique_id": "h648511b3b",
+        "name": "Mira",
+        "element": "Air",
+        "class": "Druid",
+        "level": 13,
+        "rarity": "common",
+        "shiny": false,
+        "ivs": {
+          "hp": 17,
+          "attack": 24,
+          "defense": 19,
+          "magic": 22,
+          "speed": 9
+        },
+        "evs": {
+          "hp": 0,
+          "attack": 0,
+          "defense": 0,
+          "magic": 0,
+          "speed": 0
+        },
+        "stats": {
+          "hp": 39,
+          "attack": 18,
+          "defense": 17,
+          "magic": 17,
+          "speed": 15
+        },
+        "current_hp": 39,
+        "xp": 0,
+        "xp_to_next": 1300,
+        "moveset": [
+          {
+            "move": "Air Strike",
+            "type": "Physical",
+            "power": 50,
+            "acc": 100
+          },
+          {
+            "move": "Air Burst",
+            "type": "Magical",
+            "power": 80,
+            "acc": 95
+          },
+          {
+            "move": "Air Fury",
+            "type": "Magical",
+            "power": 120,
+            "acc": 90
+          }
+        ],
+        "sprite": "assets/heroes/hero70.png",
+        "date_recruited": "2025-10-07T04:58:55.787543"
+      }
+    ],
+    "active_team": [
+      "h2a4f3d924",
+      "hf8c5828a4",
+      "hc290a6109",
+      "h3cbb304fe",
+      "h649b19364",
+      "h648511b3b"
+    ],
+    "codex": [
+      24,
+      59,
+      67,
+      65,
+      70
+    ],
+    "name": {
+      "id": 1,
+      "unique_id": "e39212d1ce",
+      "name": "Slime",
+      "element": "Water",
+      "class": "",
+      "level": 11,
+      "rarity": "common",
+      "shiny": false,
+      "ivs": {
+        "hp": 7,
+        "attack": 23,
+        "defense": 19,
+        "magic": 11,
+        "speed": 16
+      },
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "magic": 0,
+        "speed": 0
+      },
+      "stats": {
+        "hp": 34,
+        "attack": 11,
+        "defense": 12,
+        "magic": 8,
+        "speed": 11
+      },
+      "current_hp": 34,
+      "xp": 0,
+      "xp_to_next": 1100,
+      "moveset": [
+        {
+          "move": "Splash",
+          "type": "Physical",
+          "power": 30,
+          "acc": 100
+        },
+        {
+          "move": "Absorb",
+          "type": "Magic",
+          "power": 40,
+          "acc": 90
+        }
+      ],
+      "sprite": "assets/monsters/slime.png"
+    },
+    "encounter": {
+      "id": 82,
+      "unique_id": "e6be280887",
+      "name": "Lucette",
+      "element": "Ice",
+      "class": "Sorcerer",
+      "level": 12,
+      "rarity": "common",
+      "shiny": false,
+      "ivs": {
+        "hp": 8,
+        "attack": 8,
+        "defense": 29,
+        "magic": 18,
+        "speed": 2
+      },
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "magic": 0,
+        "speed": 0
+      },
+      "stats": {
+        "hp": 36,
+        "attack": 14,
+        "defense": 17,
+        "magic": 17,
+        "speed": 14
+      },
+      "current_hp": 36,
+      "xp": 0,
+      "xp_to_next": 1200,
+      "moveset": [
+        {
+          "move": "Ice Strike",
+          "type": "Physical",
+          "power": 50,
+          "acc": 100
+        },
+        {
+          "move": "Ice Burst",
+          "type": "Magical",
+          "power": 80,
+          "acc": 95
+        },
+        {
+          "move": "Ice Fury",
+          "type": "Magical",
+          "power": 120,
+          "acc": 90
+        }
+      ],
+      "sprite": "assets/heroes/hero82.png"
+    }
+  }
+}

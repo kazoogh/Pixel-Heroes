@@ -1,0 +1,278 @@
+{
+  "consumables": [
+    { "name": "Contract", "effect": "Recruit a Hero", "price": 2400 },
+    { "name": "Great Contract", "effect": "Recruit a Hero", "price": 4200 },
+    { "name": "Ancient Contract", "effect": "Recruit a Hero", "price": 8000 },
+    { "name": "Soulbound Contract", "effect": "Recruit a Hero", "price": null },
+    { "name": "Potion", "effect": "Restore Party HP", "price": 2400 },
+    { "name": "Elixir", "effect": "Level-Up a Hero", "price": 8000 }
+  ],
+
+  "materials": {
+    "fire": {
+      "common": [
+        { "name": "Charred Ember", "price": 90 },
+        { "name": "Ash Fragment", "price": 100 },
+        { "name": "Smoldering Dust", "price": 120 },
+        { "name": "Magma Pebble", "price": 150 }
+      ],
+      "uncommon": [
+        { "name": "Heated Ore", "price": 250 },
+        { "name": "Flame Crystal", "price": 320 },
+        { "name": "Molten Shard", "price": 340 }
+      ],
+      "rare": [
+        { "name": "Inferno Core", "price": 900 },
+        { "name": "Volcanic Heart", "price": 1400 }
+      ],
+      "epic": [
+        { "name": "Blazing Relic", "price": 2500 },
+        { "name": "Sunfire Gem", "price": 3200 }
+      ],
+      "legendary": [
+        { "name": "Eternal Flame", "price": 7000 },
+        { "name": "Heart of the Volcano", "price": 9500 }
+      ]
+    },
+
+    "water": {
+      "common": [
+        { "name": "Dewdrop", "price": 80 },
+        { "name": "Seaweed Strand", "price": 90 },
+        { "name": "Shell Fragment", "price": 120 },
+        { "name": "Bubble Essence", "price": 140 }
+      ],
+      "uncommon": [
+        { "name": "Coral Chip", "price": 260 },
+        { "name": "Tide Crystal", "price": 300 },
+        { "name": "Foam Pearl", "price": 320 }
+      ],
+      "rare": [
+        { "name": "Leviathan Scale", "price": 1000 },
+        { "name": "Tidal Core", "price": 1500 }
+      ],
+      "epic": [
+        { "name": "Oceanic Gem", "price": 2600 },
+        { "name": "Siren Tear", "price": 2900 }
+      ],
+      "legendary": [
+        { "name": "Trident Relic", "price": 7000 },
+        { "name": "Heart of the Sea", "price": 9500 }
+      ]
+    },
+
+    "earth": {
+      "common": [
+        { "name": "Dusty Rock", "price": 80 },
+        { "name": "Clay Shard", "price": 100 },
+        { "name": "Pebble Core", "price": 110 },
+        { "name": "Hardened Mud", "price": 130 }
+      ],
+      "uncommon": [
+        { "name": "Stone Fragment", "price": 250 },
+        { "name": "Geo Crystal", "price": 280 },
+        { "name": "Granite Chip", "price": 300 }
+      ],
+      "rare": [
+        { "name": "Terra Core", "price": 1000 },
+        { "name": "Gaia Relic", "price": 1500 }
+      ],
+      "epic": [
+        { "name": "Tectonic Plate", "price": 2600 },
+        { "name": "Earthen Relic", "price": 2800 }
+      ],
+      "legendary": [
+        { "name": "World Stone", "price": 7000 },
+        { "name": "Heart of Gaia", "price": 9200 }
+      ]
+    },
+
+    "air": {
+      "common": [
+        { "name": "Feather", "price": 85 },
+        { "name": "Breeze Dust", "price": 100 },
+        { "name": "Hollow Bone", "price": 120 },
+        { "name": "Gale Fragment", "price": 130 }
+      ],
+      "uncommon": [
+        { "name": "Sky Crystal", "price": 260 },
+        { "name": "Wind Shard", "price": 300 },
+        { "name": "Cloud Essence", "price": 330 }
+      ],
+      "rare": [
+        { "name": "Tempest Gem", "price": 1100 },
+        { "name": "Air Core", "price": 1400 }
+      ],
+      "epic": [
+        { "name": "Storm Relic", "price": 2400 },
+        { "name": "Zephyr Jewel", "price": 2700 }
+      ],
+      "legendary": [
+        { "name": "Heaven’s Relic", "price": 7200 },
+        { "name": "Skybreaker Crown", "price": 9500 }
+      ]
+    },
+
+    "lightning": {
+      "common": [
+        { "name": "Static Dust", "price": 100 },
+        { "name": "Copper Wire", "price": 110 },
+        { "name": "Battery Fragment", "price": 120 },
+        { "name": "Spark Stone", "price": 150 }
+      ],
+      "uncommon": [
+        { "name": "Charged Shard", "price": 260 },
+        { "name": "Electrum Chip", "price": 280 },
+        { "name": "Plasma Ore", "price": 320 }
+      ],
+      "rare": [
+        { "name": "Thunder Gem", "price": 1200 },
+        { "name": "Lightning Core", "price": 1600 }
+      ],
+      "epic": [
+        { "name": "Storm Crystal", "price": 2500 },
+        { "name": "Voltaic Relic", "price": 2800 }
+      ],
+      "legendary": [
+        { "name": "Skybreaker Relic", "price": 7200 },
+        { "name": "Heart of Storms", "price": 9500 }
+      ]
+    },
+
+    "ice": {
+      "common": [
+        { "name": "Snow Powder", "price": 80 },
+        { "name": "Frost Shard", "price": 100 },
+        { "name": "Cold Mist", "price": 120 },
+        { "name": "Glacial Dust", "price": 140 }
+      ],
+      "uncommon": [
+        { "name": "Permafrost Chunk", "price": 260 },
+        { "name": "Frozen Leaf", "price": 280 },
+        { "name": "Chill Crystal", "price": 300 }
+      ],
+      "rare": [
+        { "name": "Frozen Core", "price": 1000 },
+        { "name": "Glacial Gem", "price": 1400 }
+      ],
+      "epic": [
+        { "name": "Cryo Relic", "price": 2400 },
+        { "name": "Absolute Zero Shard", "price": 2700 }
+      ],
+      "legendary": [
+        { "name": "Frozen Relic", "price": 7200 },
+        { "name": "Crown of Winter", "price": 9500 }
+      ]
+    },
+
+    "shadow": {
+      "common": [
+        { "name": "Dark Dust", "price": 90 },
+        { "name": "Obsidian Chip", "price": 120 },
+        { "name": "Phantom Powder", "price": 140 },
+        { "name": "Corrupted Fang", "price": 150 }
+      ],
+      "uncommon": [
+        { "name": "Night Crystal", "price": 270 },
+        { "name": "Shade Core", "price": 300 },
+        { "name": "Abyss Fragment", "price": 330 }
+      ],
+      "rare": [
+        { "name": "Spectral Core", "price": 1100 },
+        { "name": "Shadow Gem", "price": 1500 }
+      ],
+      "epic": [
+        { "name": "Void Relic", "price": 2600 },
+        { "name": "Phantom Relic", "price": 2800 }
+      ],
+      "legendary": [
+        { "name": "Eclipse Heart", "price": 7200 },
+        { "name": "Soulbinder Relic", "price": 9500 }
+      ]
+    },
+
+    "holy": {
+      "common": [
+        { "name": "Light Dust", "price": 100 },
+        { "name": "Blessed Shard", "price": 120 },
+        { "name": "Sanctified Feather", "price": 140 },
+        { "name": "Glory Fragment", "price": 160 }
+      ],
+      "uncommon": [
+        { "name": "Radiant Chip", "price": 270 },
+        { "name": "Pure Crystal", "price": 320 },
+        { "name": "Halo Ore", "price": 350 }
+      ],
+      "rare": [
+        { "name": "Celestial Gem", "price": 1100 },
+        { "name": "Holy Core", "price": 1500 }
+      ],
+      "epic": [
+        { "name": "Divine Relic", "price": 2500 },
+        { "name": "Angel Tear", "price": 2700 }
+      ],
+      "legendary": [
+        { "name": "Radiant Relic", "price": 7200 },
+        { "name": "Sunheart Jewel", "price": 9500 }
+      ]
+    },
+
+    "nature": {
+      "common": [
+        { "name": "Leaf Fragment", "price": 90 },
+        { "name": "Vine Fiber", "price": 100 },
+        { "name": "Flower Petal", "price": 120 },
+        { "name": "Herb Powder", "price": 130 }
+      ],
+      "uncommon": [
+        { "name": "Sap Crystal", "price": 250 },
+        { "name": "Herbal Root", "price": 270 },
+        { "name": "Sprout Gem", "price": 290 }
+      ],
+      "rare": [
+        { "name": "Mystic Seed", "price": 1000 },
+        { "name": "Nature Core", "price": 1400 }
+      ],
+      "epic": [
+        { "name": "Sacred Blossom", "price": 2300 },
+        { "name": "Ancient Vine", "price": 2600 }
+      ],
+      "legendary": [
+        { "name": "Verdant Relic", "price": 7200 },
+        { "name": "Emerald Crown", "price": 9500 }
+      ]
+    },
+
+    "arcane": {
+      "common": [
+        { "name": "Mana Dust", "price": 100 },
+        { "name": "Arcane Powder", "price": 120 },
+        { "name": "Crystal Shard", "price": 130 },
+        { "name": "Runic Chip", "price": 150 }
+      ],
+      "uncommon": [
+        { "name": "Mystic Fragment", "price": 260 },
+        { "name": "Spirit Gem", "price": 280 },
+        { "name": "Astral Shard", "price": 300 }
+      ],
+      "rare": [
+        { "name": "Psy Gem", "price": 1200 },
+        { "name": "Astral Core", "price": 1600 }
+      ],
+      "epic": [
+        { "name": "Mind Relic", "price": 2500 },
+        { "name": "Dream Relic", "price": 2700 }
+      ],
+      "legendary": [
+        { "name": "Celestial Mind", "price": 7200 },
+        { "name": "Arcane Crown", "price": 9500 }
+      ]
+    }
+  },
+
+  "keys": [
+    { "name": "Silver Key", "effect": "Unlocks dungeon chests", "price": 12000 },
+    { "name": "Golden Key", "effect": "Unlocks rare treasure vaults", "price": 30000 },
+    { "name": "Ancient Key", "effect": "Opens sealed ruins and boss doors", "price": 100000 }
+  ]
+}

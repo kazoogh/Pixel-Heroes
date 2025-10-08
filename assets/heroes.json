@@ -1,0 +1,5501 @@
+[
+  {
+    "id": 1,
+    "name": "Caspian",
+    "class": "Assassin",
+    "element": "Ice",
+    "stats": {
+      "hp": 65,
+      "attack": 35,
+      "defense": 35,
+      "magic": 40,
+      "speed": 41
+    },
+    "sprite": "assets/heroes/hero1.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Ice Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Ice Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Ice Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Godwin",
+    "class": "Paladin",
+    "element": "Holy",
+    "stats": {
+      "hp": 109,
+      "attack": 89,
+      "defense": 76,
+      "magic": 88,
+      "speed": 79
+    },
+    "sprite": "assets/heroes/hero2.png",
+    "rarity": "legendary",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Holy Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Holy Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Holy Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Toro",
+    "class": "Monk",
+    "element": "Earth",
+    "stats": {
+      "hp": 55,
+      "attack": 37,
+      "defense": 30,
+      "magic": 39,
+      "speed": 36
+    },
+    "sprite": "assets/heroes/hero3.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Earth Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Earth Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Earth Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Page",
+    "class": "Paladin",
+    "element": "Air",
+    "stats": {
+      "hp": 68,
+      "attack": 49,
+      "defense": 50,
+      "magic": 50,
+      "speed": 52
+    },
+    "sprite": "assets/heroes/hero4.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Waylon",
+    "class": "Warlock",
+    "element": "Earth",
+    "stats": {
+      "hp": 70,
+      "attack": 49,
+      "defense": 50,
+      "magic": 50,
+      "speed": 48
+    },
+    "sprite": "assets/heroes/hero5.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Earth Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Earth Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Earth Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Sixto",
+    "class": "Sorcerer",
+    "element": "Lightning",
+    "stats": {
+      "hp": 75,
+      "attack": 55,
+      "defense": 48,
+      "magic": 48,
+      "speed": 51
+    },
+    "sprite": "assets/heroes/hero6.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Lightning Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Lightning Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Lightning Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Archer",
+    "class": "Ranger",
+    "element": "Ice",
+    "stats": {
+      "hp": 57,
+      "attack": 37,
+      "defense": 39,
+      "magic": 37,
+      "speed": 38
+    },
+    "sprite": "assets/heroes/hero7.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Ice Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Ice Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Ice Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Rodney",
+    "class": "Druid",
+    "element": "Ice",
+    "stats": {
+      "hp": 57,
+      "attack": 35,
+      "defense": 36,
+      "magic": 39,
+      "speed": 41
+    },
+    "sprite": "assets/heroes/hero8.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Ice Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Ice Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Ice Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Carsten",
+    "class": "Warlock",
+    "element": "Holy",
+    "stats": {
+      "hp": 55,
+      "attack": 38,
+      "defense": 32,
+      "magic": 43,
+      "speed": 39
+    },
+    "sprite": "assets/heroes/hero9.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Holy Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Holy Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Holy Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Milo",
+    "class": "Knight",
+    "element": "Holy",
+    "stats": {
+      "hp": 67,
+      "attack": 50,
+      "defense": 50,
+      "magic": 53,
+      "speed": 45
+    },
+    "sprite": "assets/heroes/hero10.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Holy Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Holy Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Holy Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Oscar",
+    "class": "Ranger",
+    "element": "Ice",
+    "stats": {
+      "hp": 65,
+      "attack": 36,
+      "defense": 31,
+      "magic": 44,
+      "speed": 38
+    },
+    "sprite": "assets/heroes/hero11.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Ice Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Ice Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Ice Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Mikhail",
+    "class": "Ranger",
+    "element": "Ice",
+    "stats": {
+      "hp": 82,
+      "attack": 69,
+      "defense": 59,
+      "magic": 63,
+      "speed": 66
+    },
+    "sprite": "assets/heroes/hero12.png",
+    "rarity": "rare",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Ice Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Ice Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Ice Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Cassian",
+    "class": "Druid",
+    "element": "Water",
+    "stats": {
+      "hp": 88,
+      "attack": 61,
+      "defense": 64,
+      "magic": 56,
+      "speed": 62
+    },
+    "sprite": "assets/heroes/hero13.png",
+    "rarity": "rare",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Water Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Water Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Water Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "River",
+    "class": "Druid",
+    "element": "Water",
+    "stats": {
+      "hp": 56,
+      "attack": 40,
+      "defense": 39,
+      "magic": 37,
+      "speed": 38
+    },
+    "sprite": "assets/heroes/hero14.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Water Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Water Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Water Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Estelle",
+    "class": "Warlock",
+    "element": "Fire",
+    "stats": {
+      "hp": 74,
+      "attack": 54,
+      "defense": 46,
+      "magic": 47,
+      "speed": 46
+    },
+    "sprite": "assets/heroes/hero15.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Fire Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Fire Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Fire Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Damon",
+    "class": "Knight",
+    "element": "Lightning",
+    "stats": {
+      "hp": 87,
+      "attack": 62,
+      "defense": 58,
+      "magic": 57,
+      "speed": 70
+    },
+    "sprite": "assets/heroes/hero16.png",
+    "rarity": "rare",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Lightning Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Lightning Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Lightning Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Walai",
+    "class": "Mage",
+    "element": "Water",
+    "stats": {
+      "hp": 74,
+      "attack": 54,
+      "defense": 40,
+      "magic": 52,
+      "speed": 51
+    },
+    "sprite": "assets/heroes/hero17.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Water Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Water Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Water Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Selene",
+    "class": "Mage",
+    "element": "Water",
+    "stats": {
+      "hp": 58,
+      "attack": 39,
+      "defense": 30,
+      "magic": 45,
+      "speed": 45
+    },
+    "sprite": "assets/heroes/hero18.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Water Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Water Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Water Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Catrina",
+    "class": "Paladin",
+    "element": "Water",
+    "stats": {
+      "hp": 65,
+      "attack": 36,
+      "defense": 40,
+      "magic": 43,
+      "speed": 39
+    },
+    "sprite": "assets/heroes/hero19.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Water Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Water Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Water Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Arabella",
+    "class": "Knight",
+    "element": "Lightning",
+    "stats": {
+      "hp": 59,
+      "attack": 39,
+      "defense": 40,
+      "magic": 39,
+      "speed": 44
+    },
+    "sprite": "assets/heroes/hero20.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Lightning Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Lightning Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Lightning Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Bernadette",
+    "class": "Druid",
+    "element": "Fire",
+    "stats": {
+      "hp": 65,
+      "attack": 49,
+      "defense": 44,
+      "magic": 52,
+      "speed": 50
+    },
+    "sprite": "assets/heroes/hero21.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Fire Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Fire Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Fire Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Odelia",
+    "class": "Sorcerer",
+    "element": "Nature",
+    "stats": {
+      "hp": 75,
+      "attack": 46,
+      "defense": 42,
+      "magic": 47,
+      "speed": 54
+    },
+    "sprite": "assets/heroes/hero22.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Nature Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Nature Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Nature Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Luna",
+    "class": "Monk",
+    "element": "Holy",
+    "stats": {
+      "hp": 67,
+      "attack": 54,
+      "defense": 42,
+      "magic": 47,
+      "speed": 45
+    },
+    "sprite": "assets/heroes/hero23.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Holy Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Holy Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Holy Fury",
+        "type": "Magic",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Ivy",
+    "class": "Assassin",
+    "element": "Nature",
+    "stats": {
+      "hp": 89,
+      "attack": 63,
+      "defense": 64,
+      "magic": 57,
+      "speed": 63
+    },
+    "sprite": "assets/heroes/hero24.png",
+    "rarity": "rare",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Nature Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Nature Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Nature Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Kael",
+    "class": "Mage",
+    "element": "Nature",
+    "stats": {
+      "hp": 58,
+      "attack": 39,
+      "defense": 30,
+      "magic": 42,
+      "speed": 37
+    },
+    "sprite": "assets/heroes/hero25.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Nature Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Nature Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Nature Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Alain",
+    "class": "Knight",
+    "element": "Shadow",
+    "stats": {
+      "hp": 84,
+      "attack": 63,
+      "defense": 58,
+      "magic": 62,
+      "speed": 68
+    },
+    "sprite": "assets/heroes/hero26.png",
+    "rarity": "rare",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Shadow Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Shadow Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Shadow Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Faye",
+    "class": "Mage",
+    "element": "Arcane",
+    "stats": {
+      "hp": 56,
+      "attack": 35,
+      "defense": 32,
+      "magic": 44,
+      "speed": 37
+    },
+    "sprite": "assets/heroes/hero27.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Arcane Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Arcane Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Arcane Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Silver",
+    "class": "Mage",
+    "element": "Ice",
+    "stats": {
+      "hp": 60,
+      "attack": 39,
+      "defense": 40,
+      "magic": 42,
+      "speed": 42
+    },
+    "sprite": "assets/heroes/hero28.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Ice Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Ice Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Ice Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Caia",
+    "class": "Knight",
+    "element": "Earth",
+    "stats": {
+      "hp": 59,
+      "attack": 45,
+      "defense": 32,
+      "magic": 45,
+      "speed": 35
+    },
+    "sprite": "assets/heroes/hero29.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Earth Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Earth Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Earth Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Devon",
+    "class": "Paladin",
+    "element": "Ice",
+    "stats": {
+      "hp": 75,
+      "attack": 52,
+      "defense": 41,
+      "magic": 52,
+      "speed": 46
+    },
+    "sprite": "assets/heroes/hero30.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Ice Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Ice Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Ice Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Fen",
+    "class": "Paladin",
+    "element": "Shadow",
+    "stats": {
+      "hp": 63,
+      "attack": 35,
+      "defense": 39,
+      "magic": 43,
+      "speed": 36
+    },
+    "sprite": "assets/heroes/hero31.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Shadow Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Shadow Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Shadow Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Calix",
+    "class": "Warlock",
+    "element": "Arcane",
+    "stats": {
+      "hp": 108,
+      "attack": 84,
+      "defense": 83,
+      "magic": 94,
+      "speed": 78
+    },
+    "sprite": "assets/heroes/hero32.png",
+    "rarity": "legendary",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Arcane Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Arcane Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Arcane Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Elva",
+    "class": "Warrior",
+    "element": "Holy",
+    "stats": {
+      "hp": 71,
+      "attack": 46,
+      "defense": 40,
+      "magic": 45,
+      "speed": 49
+    },
+    "sprite": "assets/heroes/hero33.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Holy Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Holy Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Holy Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Banol",
+    "class": "Monk",
+    "element": "Fire",
+    "stats": {
+      "hp": 85,
+      "attack": 67,
+      "defense": 62,
+      "magic": 56,
+      "speed": 62
+    },
+    "sprite": "assets/heroes/hero34.png",
+    "rarity": "rare",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Fire Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Fire Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Fire Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Sigrid",
+    "class": "Knight",
+    "element": "Water",
+    "stats": {
+      "hp": 66,
+      "attack": 51,
+      "defense": 47,
+      "magic": 49,
+      "speed": 51
+    },
+    "sprite": "assets/heroes/hero35.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Water Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Water Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Water Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Athene",
+    "class": "Paladin",
+    "element": "Air",
+    "stats": {
+      "hp": 97,
+      "attack": 80,
+      "defense": 73,
+      "magic": 75,
+      "speed": 65
+    },
+    "sprite": "assets/heroes/hero36.png",
+    "rarity": "epic",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Shalon",
+    "class": "Monk",
+    "element": "Shadow",
+    "stats": {
+      "hp": 96,
+      "attack": 70,
+      "defense": 65,
+      "magic": 78,
+      "speed": 66
+    },
+    "sprite": "assets/heroes/hero37.png",
+    "rarity": "epic",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Shadow Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Shadow Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Shadow Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Irena",
+    "class": "Paladin",
+    "element": "Fire",
+    "stats": {
+      "hp": 58,
+      "attack": 38,
+      "defense": 32,
+      "magic": 45,
+      "speed": 40
+    },
+    "sprite": "assets/heroes/hero38.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Fire Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Fire Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Fire Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Aiden",
+    "class": "Druid",
+    "element": "Earth",
+    "stats": {
+      "hp": 72,
+      "attack": 55,
+      "defense": 43,
+      "magic": 51,
+      "speed": 51
+    },
+    "sprite": "assets/heroes/hero39.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Earth Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Earth Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Earth Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Ezra",
+    "class": "Mage",
+    "element": "Lightning",
+    "stats": {
+      "hp": 62,
+      "attack": 38,
+      "defense": 35,
+      "magic": 42,
+      "speed": 40
+    },
+    "sprite": "assets/heroes/hero40.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Lightning Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Lightning Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Lightning Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Nira",
+    "class": "Ranger",
+    "element": "Arcane",
+    "stats": {
+      "hp": 65,
+      "attack": 52,
+      "defense": 47,
+      "magic": 51,
+      "speed": 48
+    },
+    "sprite": "assets/heroes/hero41.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Arcane Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Arcane Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Arcane Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Talia",
+    "class": "Knight",
+    "element": "Air",
+    "stats": {
+      "hp": 71,
+      "attack": 54,
+      "defense": 40,
+      "magic": 52,
+      "speed": 55
+    },
+    "sprite": "assets/heroes/hero42.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Orin",
+    "class": "Warlock",
+    "element": "Shadow",
+    "stats": {
+      "hp": 72,
+      "attack": 53,
+      "defense": 44,
+      "magic": 53,
+      "speed": 55
+    },
+    "sprite": "assets/heroes/hero43.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Shadow Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Shadow Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Shadow Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Ecna",
+    "class": "Paladin",
+    "element": "Water",
+    "stats": {
+      "hp": 100,
+      "attack": 80,
+      "defense": 71,
+      "magic": 73,
+      "speed": 66
+    },
+    "sprite": "assets/heroes/hero44.png",
+    "rarity": "epic",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Water Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Water Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Water Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Calanthia",
+    "class": "Paladin",
+    "element": "Nature",
+    "stats": {
+      "hp": 109,
+      "attack": 80,
+      "defense": 76,
+      "magic": 86,
+      "speed": 75
+    },
+    "sprite": "assets/heroes/hero45.png",
+    "rarity": "legendary",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Nature Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Nature Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Nature Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Dron",
+    "class": "Druid",
+    "element": "Ice",
+    "stats": {
+      "hp": 71,
+      "attack": 49,
+      "defense": 43,
+      "magic": 48,
+      "speed": 49
+    },
+    "sprite": "assets/heroes/hero46.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Ice Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Ice Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Ice Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Vean",
+    "class": "Ranger",
+    "element": "Holy",
+    "stats": {
+      "hp": 74,
+      "attack": 54,
+      "defense": 48,
+      "magic": 51,
+      "speed": 53
+    },
+    "sprite": "assets/heroes/hero47.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Holy Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Holy Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Holy Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Vixtalia",
+    "class": "Warlock",
+    "element": "Shadow",
+    "stats": {
+      "hp": 115,
+      "attack": 86,
+      "defense": 80,
+      "magic": 87,
+      "speed": 84
+    },
+    "sprite": "assets/heroes/hero48.png",
+    "rarity": "legendary",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Shadow Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Shadow Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Shadow Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Rava",
+    "class": "Druid",
+    "element": "Water",
+    "stats": {
+      "hp": 100,
+      "attack": 74,
+      "defense": 70,
+      "magic": 73,
+      "speed": 75
+    },
+    "sprite": "assets/heroes/hero49.png",
+    "rarity": "epic",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Water Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Water Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Water Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Riva",
+    "class": "Druid",
+    "element": "Ice",
+    "stats": {
+      "hp": 56,
+      "attack": 45,
+      "defense": 39,
+      "magic": 43,
+      "speed": 35
+    },
+    "sprite": "assets/heroes/hero50.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Ice Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Ice Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Ice Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Artem",
+    "class": "Ranger",
+    "element": "Nature",
+    "stats": {
+      "hp": 113,
+      "attack": 80,
+      "defense": 84,
+      "magic": 88,
+      "speed": 78
+    },
+    "sprite": "assets/heroes/hero51.png",
+    "rarity": "legendary",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Nature Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Nature Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Nature Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Lyrri",
+    "class": "Monk",
+    "element": "Earth",
+    "stats": {
+      "hp": 70,
+      "attack": 45,
+      "defense": 50,
+      "magic": 52,
+      "speed": 48
+    },
+    "sprite": "assets/heroes/hero52.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Earth Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Earth Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Earth Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Ardenas",
+    "class": "Ranger",
+    "element": "Lightning",
+    "stats": {
+      "hp": 63,
+      "attack": 37,
+      "defense": 30,
+      "magic": 37,
+      "speed": 35
+    },
+    "sprite": "assets/heroes/hero53.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Lightning Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Lightning Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Lightning Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Kain",
+    "class": "Ranger",
+    "element": "Earth",
+    "stats": {
+      "hp": 95,
+      "attack": 75,
+      "defense": 72,
+      "magic": 72,
+      "speed": 66
+    },
+    "sprite": "assets/heroes/hero54.png",
+    "rarity": "epic",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Earth Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Earth Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Earth Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Selena",
+    "class": "Druid",
+    "element": "Holy",
+    "stats": {
+      "hp": 83,
+      "attack": 61,
+      "defense": 57,
+      "magic": 61,
+      "speed": 70
+    },
+    "sprite": "assets/heroes/hero55.png",
+    "rarity": "rare",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Holy Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Holy Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Holy Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Selva",
+    "class": "Paladin",
+    "element": "Water",
+    "stats": {
+      "hp": 89,
+      "attack": 69,
+      "defense": 59,
+      "magic": 63,
+      "speed": 60
+    },
+    "sprite": "assets/heroes/hero56.png",
+    "rarity": "rare",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Water Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Water Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Water Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Prea",
+    "class": "Warlock",
+    "element": "Air",
+    "stats": {
+      "hp": 64,
+      "attack": 37,
+      "defense": 35,
+      "magic": 42,
+      "speed": 36
+    },
+    "sprite": "assets/heroes/hero57.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Azula",
+    "class": "Assassin",
+    "element": "Fire",
+    "stats": {
+      "hp": 63,
+      "attack": 39,
+      "defense": 31,
+      "magic": 41,
+      "speed": 41
+    },
+    "sprite": "assets/heroes/hero58.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Ice Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Ice Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Ice Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Rilon",
+    "class": "Sorcerer",
+    "element": "Arcane",
+    "stats": {
+      "hp": 80,
+      "attack": 63,
+      "defense": 56,
+      "magic": 58,
+      "speed": 64
+    },
+    "sprite": "assets/heroes/hero59.png",
+    "rarity": "rare",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Arcane Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Arcane Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Arcane Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Niax",
+    "class": "Druid",
+    "element": "Shadow",
+    "stats": {
+      "hp": 59,
+      "attack": 37,
+      "defense": 35,
+      "magic": 40,
+      "speed": 36
+    },
+    "sprite": "assets/heroes/hero60.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Shadow Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Shadow Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Shadow Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Prunt",
+    "class": "Sorcerer",
+    "element": "Earth",
+    "stats": {
+      "hp": 62,
+      "attack": 44,
+      "defense": 40,
+      "magic": 37,
+      "speed": 41
+    },
+    "sprite": "assets/heroes/hero61.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Earth Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Earth Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Earth Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Ures",
+    "class": "Knight",
+    "element": "Fire",
+    "stats": {
+      "hp": 73,
+      "attack": 54,
+      "defense": 43,
+      "magic": 52,
+      "speed": 55
+    },
+    "sprite": "assets/heroes/hero62.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Fire Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Fire Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Fire Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Nanea",
+    "class": "Knight",
+    "element": "Ice",
+    "stats": {
+      "hp": 59,
+      "attack": 38,
+      "defense": 31,
+      "magic": 39,
+      "speed": 39
+    },
+    "sprite": "assets/heroes/hero63.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Ice Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Ice Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Ice Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Barlo",
+    "class": "Warrior",
+    "element": "Shadow",
+    "stats": {
+      "hp": 56,
+      "attack": 40,
+      "defense": 40,
+      "magic": 41,
+      "speed": 44
+    },
+    "sprite": "assets/heroes/hero64.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Shadow Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Shadow Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Shadow Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Daese",
+    "class": "Assassin",
+    "element": "Earth",
+    "stats": {
+      "hp": 61,
+      "attack": 44,
+      "defense": 39,
+      "magic": 43,
+      "speed": 39
+    },
+    "sprite": "assets/heroes/hero65.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Earth Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Earth Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Earth Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Poi",
+    "class": "Warrior",
+    "element": "Water",
+    "stats": {
+      "hp": 65,
+      "attack": 44,
+      "defense": 37,
+      "magic": 43,
+      "speed": 38
+    },
+    "sprite": "assets/heroes/hero66.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Water Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Water Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Water Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Aia",
+    "class": "Paladin",
+    "element": "Water",
+    "stats": {
+      "hp": 66,
+      "attack": 50,
+      "defense": 48,
+      "magic": 46,
+      "speed": 53
+    },
+    "sprite": "assets/heroes/hero67.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Water Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Water Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Water Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Thane",
+    "class": "Druid",
+    "element": "Water",
+    "stats": {
+      "hp": 88,
+      "attack": 68,
+      "defense": 63,
+      "magic": 61,
+      "speed": 62
+    },
+    "sprite": "assets/heroes/hero68.png",
+    "rarity": "rare",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Water Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Water Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Water Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Zara",
+    "class": "Paladin",
+    "element": "Water",
+    "stats": {
+      "hp": 57,
+      "attack": 39,
+      "defense": 38,
+      "magic": 36,
+      "speed": 45
+    },
+    "sprite": "assets/heroes/hero69.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Water Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Water Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Water Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Mira",
+    "class": "Druid",
+    "element": "Air",
+    "stats": {
+      "hp": 55,
+      "attack": 38,
+      "defense": 39,
+      "magic": 38,
+      "speed": 36
+    },
+    "sprite": "assets/heroes/hero70.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Renata",
+    "class": "Sorcerer",
+    "element": "Holy",
+    "stats": {
+      "hp": 65,
+      "attack": 47,
+      "defense": 43,
+      "magic": 50,
+      "speed": 48
+    },
+    "sprite": "assets/heroes/hero71.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Holy Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Holy Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Holy Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Kalor",
+    "class": "Warrior",
+    "element": "Nature",
+    "stats": {
+      "hp": 93,
+      "attack": 78,
+      "defense": 70,
+      "magic": 79,
+      "speed": 72
+    },
+    "sprite": "assets/heroes/hero72.png",
+    "rarity": "epic",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Nature Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Nature Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Nature Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Sylas",
+    "class": "Monk",
+    "element": "Nature",
+    "stats": {
+      "hp": 61,
+      "attack": 43,
+      "defense": 32,
+      "magic": 42,
+      "speed": 43
+    },
+    "sprite": "assets/heroes/hero73.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Nature Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Nature Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Nature Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Mae",
+    "class": "Mage",
+    "element": "Water",
+    "stats": {
+      "hp": 64,
+      "attack": 39,
+      "defense": 31,
+      "magic": 43,
+      "speed": 35
+    },
+    "sprite": "assets/heroes/hero74.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Water Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Water Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Water Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Kayx",
+    "class": "Mage",
+    "element": "Arcane",
+    "stats": {
+      "hp": 92,
+      "attack": 74,
+      "defense": 66,
+      "magic": 72,
+      "speed": 65
+    },
+    "sprite": "assets/heroes/hero75.png",
+    "rarity": "epic",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Arcane Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Arcane Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Arcane Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Leonardo",
+    "class": "Druid",
+    "element": "Holy",
+    "stats": {
+      "hp": 64,
+      "attack": 45,
+      "defense": 40,
+      "magic": 38,
+      "speed": 43
+    },
+    "sprite": "assets/heroes/hero76.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Holy Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Holy Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Holy Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Drucilla",
+    "class": "Ranger",
+    "element": "Shadow",
+    "stats": {
+      "hp": 65,
+      "attack": 49,
+      "defense": 46,
+      "magic": 55,
+      "speed": 55
+    },
+    "sprite": "assets/heroes/hero77.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Shadow Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Shadow Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Shadow Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Tessia",
+    "class": "Sorcerer",
+    "element": "Water",
+    "stats": {
+      "hp": 62,
+      "attack": 41,
+      "defense": 30,
+      "magic": 44,
+      "speed": 35
+    },
+    "sprite": "assets/heroes/hero78.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Water Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Water Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Water Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Lvan",
+    "class": "Assassin",
+    "element": "Earth",
+    "stats": {
+      "hp": 97,
+      "attack": 79,
+      "defense": 67,
+      "magic": 70,
+      "speed": 69
+    },
+    "sprite": "assets/heroes/hero79.png",
+    "rarity": "epic",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Earth Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Earth Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Earth Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Runaa",
+    "class": "Monk",
+    "element": "Nature",
+    "stats": {
+      "hp": 112,
+      "attack": 90,
+      "defense": 75,
+      "magic": 92,
+      "speed": 75
+    },
+    "sprite": "assets/heroes/hero80.png",
+    "rarity": "legendary",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Nature Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Nature Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Nature Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Lonat",
+    "class": "Warrior",
+    "element": "Fire",
+    "stats": {
+      "hp": 98,
+      "attack": 70,
+      "defense": 75,
+      "magic": 74,
+      "speed": 71
+    },
+    "sprite": "assets/heroes/hero81.png",
+    "rarity": "epic",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Fire Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Fire Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Fire Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Lucette",
+    "class": "Sorcerer",
+    "element": "Ice",
+    "stats": {
+      "hp": 55,
+      "attack": 36,
+      "defense": 38,
+      "magic": 44,
+      "speed": 39
+    },
+    "sprite": "assets/heroes/hero82.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Ice Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Ice Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Ice Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Niro",
+    "class": "Knight",
+    "element": "Arcane",
+    "stats": {
+      "hp": 80,
+      "attack": 67,
+      "defense": 58,
+      "magic": 55,
+      "speed": 64
+    },
+    "sprite": "assets/heroes/hero83.png",
+    "rarity": "rare",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Arcane Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Arcane Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Arcane Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Tariq",
+    "class": "Sorcerer",
+    "element": "Ice",
+    "stats": {
+      "hp": 65,
+      "attack": 44,
+      "defense": 35,
+      "magic": 42,
+      "speed": 43
+    },
+    "sprite": "assets/heroes/hero84.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Ice Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Ice Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Ice Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "name": "Adonis",
+    "class": "Assassin",
+    "element": "Lightning",
+    "stats": {
+      "hp": 65,
+      "attack": 50,
+      "defense": 42,
+      "magic": 46,
+      "speed": 52
+    },
+    "sprite": "assets/heroes/hero85.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Lightning Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Lightning Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Lightning Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "name": "Kruz",
+    "class": "Assassin",
+    "element": "Fire",
+    "stats": {
+      "hp": 66,
+      "attack": 49,
+      "defense": 45,
+      "magic": 52,
+      "speed": 51
+    },
+    "sprite": "assets/heroes/hero86.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Fire Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Fire Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Fire Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "name": "Ephra",
+    "class": "Ranger",
+    "element": "Air",
+    "stats": {
+      "hp": 71,
+      "attack": 47,
+      "defense": 41,
+      "magic": 54,
+      "speed": 54
+    },
+    "sprite": "assets/heroes/hero87.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "name": "Walker",
+    "class": "Sorcerer",
+    "element": "Fire",
+    "stats": {
+      "hp": 67,
+      "attack": 49,
+      "defense": 50,
+      "magic": 51,
+      "speed": 52
+    },
+    "sprite": "assets/heroes/hero88.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Fire Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Fire Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Fire Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "name": "Altair",
+    "class": "Druid",
+    "element": "Water",
+    "stats": {
+      "hp": 68,
+      "attack": 54,
+      "defense": 42,
+      "magic": 50,
+      "speed": 52
+    },
+    "sprite": "assets/heroes/hero89.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Water Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Water Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Water Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "name": "Ishto",
+    "class": "Sorcerer",
+    "element": "Air",
+    "stats": {
+      "hp": 96,
+      "attack": 75,
+      "defense": 74,
+      "magic": 78,
+      "speed": 68
+    },
+    "sprite": "assets/heroes/hero90.png",
+    "rarity": "epic",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "name": "Simeon",
+    "class": "Assassin",
+    "element": "Water",
+    "stats": {
+      "hp": 55,
+      "attack": 38,
+      "defense": 34,
+      "magic": 45,
+      "speed": 36
+    },
+    "sprite": "assets/heroes/hero91.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Water Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Water Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Water Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "name": "Flam",
+    "class": "Mage",
+    "element": "Fire",
+    "stats": {
+      "hp": 59,
+      "attack": 45,
+      "defense": 37,
+      "magic": 44,
+      "speed": 40
+    },
+    "sprite": "assets/heroes/hero92.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Fire Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Fire Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Fire Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "name": "Kara",
+    "class": "Warrior",
+    "element": "Shadow",
+    "stats": {
+      "hp": 57,
+      "attack": 35,
+      "defense": 39,
+      "magic": 40,
+      "speed": 40
+    },
+    "sprite": "assets/heroes/hero93.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Shadow Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Shadow Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Shadow Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "name": "Erra",
+    "class": "Monk",
+    "element": "Fire",
+    "stats": {
+      "hp": 70,
+      "attack": 48,
+      "defense": 50,
+      "magic": 45,
+      "speed": 46
+    },
+    "sprite": "assets/heroes/hero94.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": " Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": " Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": " Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "name": "Anais",
+    "class": "Ranger",
+    "element": "Air",
+    "stats": {
+      "hp": 67,
+      "attack": 49,
+      "defense": 42,
+      "magic": 49,
+      "speed": 53
+    },
+    "sprite": "assets/heroes/hero95.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "name": "Xavii",
+    "class": "Assassin",
+    "element": "Arcane",
+    "stats": {
+      "hp": 113,
+      "attack": 82,
+      "defense": 81,
+      "magic": 87,
+      "speed": 81
+    },
+    "sprite": "assets/heroes/hero96.png",
+    "rarity": "legendary",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Arcane Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Arcane Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Arcane Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "name": "Thana",
+    "class": "Paladin",
+    "element": "Arcane",
+    "stats": {
+      "hp": 61,
+      "attack": 39,
+      "defense": 31,
+      "magic": 40,
+      "speed": 36
+    },
+    "sprite": "assets/heroes/hero97.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Arcane Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Arcane Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Arcane Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "name": "Duval",
+    "class": "Warlock",
+    "element": "Fire",
+    "stats": {
+      "hp": 64,
+      "attack": 37,
+      "defense": 34,
+      "magic": 42,
+      "speed": 44
+    },
+    "sprite": "assets/heroes/hero98.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Fire Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Fire Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Fire Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "name": "Zala",
+    "class": "Monk",
+    "element": "Lightning",
+    "stats": {
+      "hp": 67,
+      "attack": 53,
+      "defense": 46,
+      "magic": 53,
+      "speed": 50
+    },
+    "sprite": "assets/heroes/hero99.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Lightning Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Lightning Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Lightning Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Dusa",
+    "class": "Monk",
+    "element": "Shadow",
+    "stats": {
+      "hp": 90,
+      "attack": 70,
+      "defense": 69,
+      "magic": 80,
+      "speed": 65
+    },
+    "sprite": "assets/heroes/hero100.png",
+    "rarity": "epic",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Shadow Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Shadow Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Shadow Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "name": "Cecelia",
+    "class": "Assassin",
+    "element": "Ice",
+    "stats": {
+      "hp": 66,
+      "attack": 49,
+      "defense": 45,
+      "magic": 52,
+      "speed": 51
+    },
+    "sprite": "assets/heroes/hero101.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Fire Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Fire Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Fire Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "name": "Pratha",
+    "class": "Assassin",
+    "element": "Holy",
+    "stats": {
+      "hp": 66,
+      "attack": 49,
+      "defense": 45,
+      "magic": 52,
+      "speed": 51
+    },
+    "sprite": "assets/heroes/hero102.png",
+    "rarity": "epic",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Fire Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Fire Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Fire Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "name": "Eva",
+    "class": "Assassin",
+    "element": "Shadow",
+    "stats": {
+      "hp": 66,
+      "attack": 49,
+      "defense": 45,
+      "magic": 52,
+      "speed": 51
+    },
+    "sprite": "assets/heroes/hero103.png",
+    "rarity": "epic",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Fire Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Fire Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Fire Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "name": "Litra",
+    "class": "Assassin",
+    "element": "Lightning",
+    "stats": {
+      "hp": 66,
+      "attack": 49,
+      "defense": 45,
+      "magic": 52,
+      "speed": 51
+    },
+    "sprite": "assets/heroes/hero104.png",
+    "rarity": "rare",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Fire Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Fire Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Fire Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "name": "Imane",
+    "class": "Assassin",
+    "element": "Air",
+    "stats": {
+      "hp": 66,
+      "attack": 49,
+      "defense": 45,
+      "magic": 52,
+      "speed": 51
+    },
+    "sprite": "assets/heroes/hero105.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Fire Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Fire Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Fire Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "name": "Kassandra",
+    "class": "Assassin",
+    "element": "Water",
+    "stats": {
+      "hp": 66,
+      "attack": 49,
+      "defense": 45,
+      "magic": 52,
+      "speed": 51
+    },
+    "sprite": "assets/heroes/hero106.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Fire Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Fire Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Fire Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "name": "Naya",
+    "class": "Assassin",
+    "element": "Arcane",
+    "stats": {
+      "hp": 66,
+      "attack": 49,
+      "defense": 45,
+      "magic": 52,
+      "speed": 51
+    },
+    "sprite": "assets/heroes/hero107.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Fire Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Fire Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Fire Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "name": "Ethani",
+    "class": "Assassin",
+    "element": "Shadow",
+    "stats": {
+      "hp": 66,
+      "attack": 49,
+      "defense": 45,
+      "magic": 52,
+      "speed": 51
+    },
+    "sprite": "assets/heroes/hero108.png",
+    "rarity": "epic",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Fire Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Fire Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Fire Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "name": "Aaka",
+    "class": "Assassin",
+    "element": "Air",
+    "stats": {
+      "hp": 66,
+      "attack": 49,
+      "defense": 45,
+      "magic": 52,
+      "speed": 51
+    },
+    "sprite": "assets/heroes/hero109.png",
+    "rarity": "epic",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Fire Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Fire Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Fire Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "name": "Onran",
+    "class": "Assassin",
+    "element": "Nature",
+    "stats": {
+      "hp": 66,
+      "attack": 49,
+      "defense": 45,
+      "magic": 52,
+      "speed": 51
+    },
+    "sprite": "assets/heroes/hero110.png",
+    "rarity": "rare",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Fire Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Fire Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Fire Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "name": "Tais",
+    "class": "Assassin",
+    "element": "Holy",
+    "stats": {
+      "hp": 66,
+      "attack": 49,
+      "defense": 45,
+      "magic": 52,
+      "speed": 51
+    },
+    "sprite": "assets/heroes/hero111.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Fire Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Fire Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Fire Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "name": "Lina",
+    "class": "Sorcerer",
+    "element": "Lightning",
+    "stats": {
+      "hp": 96,
+      "attack": 75,
+      "defense": 74,
+      "magic": 78,
+      "speed": 68
+    },
+    "sprite": "assets/heroes/hero112.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "name": "Naland",
+    "class": "Sorcerer",
+    "element": "Nature",
+    "stats": {
+      "hp": 96,
+      "attack": 75,
+      "defense": 74,
+      "magic": 78,
+      "speed": 68
+    },
+    "sprite": "assets/heroes/hero113.png",
+    "rarity": "rare",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "name": "Wulari",
+    "class": "Sorcerer",
+    "element": "Air",
+    "stats": {
+      "hp": 96,
+      "attack": 75,
+      "defense": 74,
+      "magic": 78,
+      "speed": 68
+    },
+    "sprite": "assets/heroes/hero114.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "name": "Ithania",
+    "class": "Sorcerer",
+    "element": "Holy",
+    "stats": {
+      "hp": 96,
+      "attack": 75,
+      "defense": 74,
+      "magic": 78,
+      "speed": 68
+    },
+    "sprite": "assets/heroes/hero115.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "name": "Merlin",
+    "class": "Sorcerer",
+    "element": "Water",
+    "stats": {
+      "hp": 96,
+      "attack": 75,
+      "defense": 74,
+      "magic": 78,
+      "speed": 68
+    },
+    "sprite": "assets/heroes/hero116.png",
+    "rarity": "legendary",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "name": "Falia",
+    "class": "Sorcerer",
+    "element": "Fire",
+    "stats": {
+      "hp": 96,
+      "attack": 75,
+      "defense": 74,
+      "magic": 78,
+      "speed": 68
+    },
+    "sprite": "assets/heroes/hero117.png",
+    "rarity": "rare",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "name": "Exoza",
+    "class": "Sorcerer",
+    "element": "Shadow",
+    "stats": {
+      "hp": 96,
+      "attack": 75,
+      "defense": 74,
+      "magic": 78,
+      "speed": 68
+    },
+    "sprite": "assets/heroes/hero118.png",
+    "rarity": "legendary",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "name": "Rian",
+    "class": "Sorcerer",
+    "element": "Shadow",
+    "stats": {
+      "hp": 96,
+      "attack": 75,
+      "defense": 74,
+      "magic": 78,
+      "speed": 68
+    },
+    "sprite": "assets/heroes/hero119.png",
+    "rarity": "epic",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "name": "Gautama",
+    "class": "Monk",
+    "element": "Holy",
+    "stats": {
+      "hp": 96,
+      "attack": 75,
+      "defense": 74,
+      "magic": 78,
+      "speed": 68
+    },
+    "sprite": "assets/heroes/hero120.png",
+    "rarity": "legendary",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "name": "Jaxon",
+    "class": "Monk",
+    "element": "Lightning",
+    "stats": {
+      "hp": 96,
+      "attack": 75,
+      "defense": 74,
+      "magic": 78,
+      "speed": 68
+    },
+    "sprite": "assets/heroes/hero121.png",
+    "rarity": "rare",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "name": "Rheas",
+    "class": "Monk",
+    "element": "Water",
+    "stats": {
+      "hp": 96,
+      "attack": 75,
+      "defense": 74,
+      "magic": 78,
+      "speed": 68
+    },
+    "sprite": "assets/heroes/hero122.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "name": "Marcea",
+    "class": "Monk",
+    "element": "Water",
+    "stats": {
+      "hp": 96,
+      "attack": 75,
+      "defense": 74,
+      "magic": 78,
+      "speed": 68
+    },
+    "sprite": "assets/heroes/hero123.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "name": "Aang",
+    "class": "Monk",
+    "element": "Air",
+    "stats": {
+      "hp": 96,
+      "attack": 75,
+      "defense": 74,
+      "magic": 78,
+      "speed": 68
+    },
+    "sprite": "assets/heroes/hero124.png",
+    "rarity": "legendary",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "name": "Itea",
+    "class": "Monk",
+    "element": "Air",
+    "stats": {
+      "hp": 96,
+      "attack": 75,
+      "defense": 74,
+      "magic": 78,
+      "speed": 68
+    },
+    "sprite": "assets/heroes/hero125.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "name": "Oatan",
+    "class": "Monk",
+    "element": "Ice",
+    "stats": {
+      "hp": 96,
+      "attack": 75,
+      "defense": 74,
+      "magic": 78,
+      "speed": 68
+    },
+    "sprite": "assets/heroes/hero126.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "name": "Isha",
+    "class": "Monk",
+    "element": "Ice",
+    "stats": {
+      "hp": 96,
+      "attack": 75,
+      "defense": 74,
+      "magic": 78,
+      "speed": 68
+    },
+    "sprite": "assets/heroes/hero127.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "name": "Lilan",
+    "class": "Monk",
+    "element": "Arcane",
+    "stats": {
+      "hp": 96,
+      "attack": 75,
+      "defense": 74,
+      "magic": 78,
+      "speed": 68
+    },
+    "sprite": "assets/heroes/hero128.png",
+    "rarity": "rare",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "name": "Bilon",
+    "class": "Monk",
+    "element": "Arcane",
+    "stats": {
+      "hp": 96,
+      "attack": 75,
+      "defense": 74,
+      "magic": 78,
+      "speed": 68
+    },
+    "sprite": "assets/heroes/hero129.png",
+    "rarity": "epic",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "name": "Female",
+    "class": "Warlock",
+    "element": "Arcane",
+    "stats": {
+      "hp": 96,
+      "attack": 75,
+      "defense": 74,
+      "magic": 78,
+      "speed": 68
+    },
+    "sprite": "assets/heroes/hero130.png",
+    "rarity": "rare",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "name": "Bilon",
+    "class": "Warlock",
+    "element": "Lightning",
+    "stats": {
+      "hp": 96,
+      "attack": 75,
+      "defense": 74,
+      "magic": 78,
+      "speed": 68
+    },
+    "sprite": "assets/heroes/hero131.png",
+    "rarity": "epic",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "name": "Bilon",
+    "class": "Warlock",
+    "element": "Lightning",
+    "stats": {
+      "hp": 96,
+      "attack": 75,
+      "defense": 74,
+      "magic": 78,
+      "speed": 68
+    },
+    "sprite": "assets/heroes/hero132.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "name": "Female",
+    "class": "Warlock",
+    "element":"Earth",
+    "stats": {
+      "hp": 96,
+      "attack": 75,
+      "defense": 74,
+      "magic": 78,
+      "speed": 68
+    },
+    "sprite": "assets/heroes/hero133.png",
+    "rarity": "uncommon",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "name": "Male",
+    "class": "Warlock",
+    "element": "Holy",
+    "stats": {
+      "hp": 96,
+      "attack": 75,
+      "defense": 74,
+      "magic": 78,
+      "speed": 68
+    },
+    "sprite": "assets/heroes/hero134.png",
+    "rarity": "rare",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "name": "Male",
+    "class": "Warlock",
+    "element": "Air",
+    "stats": {
+      "hp": 96,
+      "attack": 75,
+      "defense": 74,
+      "magic": 78,
+      "speed": 68
+    },
+    "sprite": "assets/heroes/hero135.png",
+    "rarity": "rare",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "name": "Male",
+    "class": "Warlock",
+    "element": "Ice",
+    "stats": {
+      "hp": 96,
+      "attack": 75,
+      "defense": 74,
+      "magic": 78,
+      "speed": 68
+    },
+    "sprite": "assets/heroes/hero136.png",
+    "rarity": "rare",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "name": "Female",
+    "class": "Warlock",
+    "element": "Ice",
+    "stats": {
+      "hp": 96,
+      "attack": 75,
+      "defense": 74,
+      "magic": 78,
+      "speed": 68
+    },
+    "sprite": "assets/heroes/hero137.png",
+    "rarity": "rare",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "name": "Male",
+    "class": "Warlock",
+    "element": "Nature",
+    "stats": {
+      "hp": 96,
+      "attack": 75,
+      "defense": 74,
+      "magic": 78,
+      "speed": 68
+    },
+    "sprite": "assets/heroes/hero138.png",
+    "rarity": "epic",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "name": "Female",
+    "class": "Warlock",
+    "element": "Nature",
+    "stats": {
+      "hp": 96,
+      "attack": 75,
+      "defense": 74,
+      "magic": 78,
+      "speed": 68
+    },
+    "sprite": "assets/heroes/hero139.png",
+    "rarity": "rare",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "name": "Male",
+    "class": "Warlock",
+    "element": "Water",
+    "stats": {
+      "hp": 96,
+      "attack": 75,
+      "defense": 74,
+      "magic": 78,
+      "speed": 68
+    },
+    "sprite": "assets/heroes/hero140.png",
+    "rarity": "common",
+    "shiny": false,
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "name": "Female",
+    "class": "Warlock",
+    "element": "Water",
+    "stats": {
+      "hp": 96,
+      "attack": 75,
+      "defense": 74,
+      "magic": 78,
+      "speed": 68
+    },
+    "sprite": "assets/heroes/hero141.png",
+    "rarity": "common",
+    "shiny": false,a
+    "skills": [
+      {
+        "lv.": 1,
+        "skill": "Air Strike",
+        "type": "Physical",
+        "power": "50",
+        "acc.": "100"
+      },
+      {
+        "lv.": 5,
+        "skill": "Air Burst",
+        "type": "Magical",
+        "power": "80",
+        "acc.": "95"
+      },
+      {
+        "lv.": 10,
+        "skill": "Air Fury",
+        "type": "Magical",
+        "power": "120",
+        "acc.": "90"
+      }
+    ]
+  }
+]
