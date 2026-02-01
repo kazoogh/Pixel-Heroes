@@ -14,7 +14,7 @@ import random
 # CONFIG
 # -----------------------------
 
-TOKEN = "MTQyNDUwMjUxMDg4OTk5NjM4OQ.GQZURt.Ye7eyjvkBK6MGEmPa7Cxnfk2geG_jsX2ru3V3w"
+TOKEN = os.getenv("TOKEN_ID", "")
 GUILD_TOKEN = os.getenv("GUILD_ID", "")
 intents = discord.Intents.default()
 bot = commands.Bot(command_prefix="!", intents=intents)
